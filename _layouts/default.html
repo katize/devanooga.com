@@ -3,6 +3,9 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    {% if page.quilt %}
+    {% include quilt.html %}
+    {% endif %}
     <main class="wrapper {{page.layout_modifier}}">
       {{ content }}
     </main>
