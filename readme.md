@@ -21,6 +21,7 @@ Member data is located under `_collections/members`. Copy an existing profile, n
 
 - **`name`** (required) Your full name as it should appear on the site.
 - **`gravatar`** (required) Your gravatar hash. [Use this tool to get your gravatar hash.](http://aruljohn.com/gravatar/) _For example, @StrangeWill’s result is `http://www.gravatar.com/avatar/6789f8bd72612e941f9a7ae6f414b2ea?s=48&d=identicon`; the hash is this part: `6789f8bd72612e941f9a7ae6f414b2ea`._
+- **`homepage-quilt`** (optional: true/false) Whether you would like to appear in the members quilt on our homepage.
 - **`website`** (optional) The full URL (including the protocol: `http://` or `https://`) to your website.
 - **`profile:`**
     - **`github`** (optional) Github account name.
